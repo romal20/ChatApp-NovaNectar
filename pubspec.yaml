@@ -57,14 +57,21 @@ dependencies:
   google_generative_ai: ^0.4.3
 
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
 
 flutter:
   # For enabling material design
   uses-material-design: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
 
   # App Assets
   assets:
